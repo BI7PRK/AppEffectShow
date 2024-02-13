@@ -8,7 +8,6 @@ import com.experiment.app.utils.PermissionUtils
 
 
 class MainActivity : AppCompatActivity() {
-    //private var binding:Ma
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             }
             frTrans.commit()
         }
-        val vapFragment = TencentVapFragment("http://freedom.patathai.com/vapx/vap_demo.mp4")
+        val vapFragment = TencentVapFragment("http://efx.media.dev/vapx/vap_demo.mp4")
         val detach = findViewById<Button>(R.id.detach_btn)
         detach.setOnClickListener {
             val frTrans = supportFragmentManager.beginTransaction()

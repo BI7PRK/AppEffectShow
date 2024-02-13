@@ -60,7 +60,7 @@ class AlphaPlayerFragment : Fragment() {
     override fun onStart() {
         super.onStart()
         player?.attachView()
-        player?.startVideo("http://freedom.patathai.com/gift_right.mp4")
+        player?.startVideo("http://efx.media.dev/vapx/vap_demo.mp4")
     }
 
     override fun onPause() {

@@ -33,6 +33,7 @@ object PreloadMediaSourceHelper  {
     }
 
     fun load(url:String, completeMediaDataSource: CompleteMediaDataSource){
+        if(url.isEmpty()) return
         val urlIndex = url.replace("\\", "/").lastIndexOf("/")
         mediaFile = if(urlIndex >= 0){
             url.substring(urlIndex + 1)

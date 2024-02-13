@@ -69,8 +69,7 @@ class GiftPlayActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        //PreloadMediaSourceHelper.load()
-        player?.startVideo("http://freedom.patathai.com/gift_right.mp4")
+        player?.startVideo("http://efx.media.dev/vapx/vap_demo.mp4")
     }
 
 }
