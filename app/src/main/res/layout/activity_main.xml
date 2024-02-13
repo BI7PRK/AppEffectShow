@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<FrameLayout
+    android:id="@+id/main_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</FrameLayout>
+
+    <Button
+        android:id="@+id/start_play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/vap_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VAP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_play_btn" />
+
+    <Button
+        android:id="@+id/detach_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detach"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vap_btn" />
+    <Button
+        android:id="@+id/start_acty_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Task"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detach_btn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
